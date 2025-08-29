@@ -1,0 +1,4 @@
+enabled: true
+drop-amount: 2
+require-shears: false
+silk-touch-only: false

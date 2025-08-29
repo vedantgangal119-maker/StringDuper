@@ -1,0 +1,15 @@
+name: StringDuper
+version: 1.0.0
+main: com.vedantgangal.stringduper.StringDuper
+api-version: '1.21'
+author: vedantgangal119-maker
+description: Brings back string duper by making cobwebs drop customizable string.
+commands:
+  stringduper:
+    description: Toggle/reload or set drop amount for StringDuper
+    usage: /<command> [toggle|reload|set <amount>]
+    permission: stringduper.admin
+permissions:
+  stringduper.admin:
+    description: Allows managing the StringDuper plugin
+    default: op
